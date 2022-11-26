@@ -51,10 +51,18 @@ main .parent{
     margin-top: 20px;
     border: 1px solid #959ba1;
     border-radius: 40px;
-    padding: 9px;
+    padding: 9px 20px;
     display: flex;
     flex-direction: row;
-    gap: 330px;
+    width: 85vw;
+    max-width: 570px;
+    gap: 20px;
+}
+main input{
+    all: unset;
+    color: white;
+    display: block;
+    flex-grow: 1;
 }
 main i{
     color: beige;
